@@ -1,0 +1,10 @@
+
+# MacPorts Installer addition on 2012-05-27_at_19:24:12: adding an appropriate PATH variable for use with MacPorts.
+#export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
+
+# Setting PATH for Python 2.7
+# The orginal version is saved in .profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+export PATH
